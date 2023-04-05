@@ -1,0 +1,22 @@
+{
+    "description": "Projeto Celke",
+    "authors": [
+        {
+            "name": "Junior Marques",
+            "email": "tudoenosso@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CoreSts\\": "Sts/core",            
+            "CoreGmp\\": "Gmp/core",            
+            "CoreGme\\": "Gme/core",            
+            "Sts\\": "Sts/app",
+            "Gmp\\": "Gmp/app",
+            "Gme\\": "Gme/app",
+            "Helpers\\": "Helpers"
+
+        }
+    },
+    "require": {}
+}
